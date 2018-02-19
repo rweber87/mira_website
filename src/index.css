@@ -51,8 +51,70 @@ li {
     width: 35%;
 }
 
-.col-1-4.img {
-	width: 150px;
-    height: 100px;
-    
+.content-container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 150px;	
 }
+
+.left-menu-column {
+	display: flex;
+	flex-direction: column;
+	color: #217A63;
+	font-size: 15px;
+	width: 25%;
+}
+
+.left-menu-column li {
+	padding-left: 75px;
+	padding-bottom: 10px;
+}
+
+.image-row {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 75%;
+}
+
+.project-img  {
+	margin-right: 4px;
+}
+
+.info-container {
+	display: flex;
+	align-items: flex-end;
+}
+
+#project-text-text {
+	padding-left: 5px;
+}
+
+.project-text {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	position: absolute;
+	padding-bottom: 5px;
+	font-size:17px;
+}
+
+span.project-text {
+  background: rgba(0,0,0,0.5);
+  position: top;
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 325px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.card:hover span.project-text {
+  opacity: 1;
+}
+
