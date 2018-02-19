@@ -1,5 +1,58 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-color: #02241D;
+}
+
+.navbar-title {
+	padding-left: 75px;
+	float: left;
+	color: #CA5541;
+	font-weight: normal;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.nav {
+	padding-top: 30px;
+}
+
+.project-card {
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
+	padding-top: 90px;
+}
+
+.nav-item {
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: white;	
+	text-decoration: none;
+	position: inline;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1DB7F0;
+    transition: width .3s;
+}
+
+.nav-item:hover::after {
+    width: 35%;
+}
+
+.col-1-4.img {
+	width: 150px;
+    height: 100px;
+    
 }

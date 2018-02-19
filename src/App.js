@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
+import { Switch, Route } from 'react-router-dom';
 import NavBar from './NavBar';
-import './App.css';
+import ListProjects from './ListProjects'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Mira's Webpage</h1>
           <NavBar />
-        </header>
+          <Switch>
+          	<Route exact path='/portfolio' render={() => <ListProjects />} />
+          </Switch>
       </div>
     );
   }
