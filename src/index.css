@@ -5,12 +5,23 @@ body {
 }
 
 .navbar-title {
+	position: relative;
 	padding-left: 75px;
 	float: left;
 	color: #CA5541;
 	font-weight: normal;
 	text-decoration: none;
 	margin-top: 15px;
+}
+
+.logo-line{
+	position:absolute;
+  	top: 80px;
+  	height: 20px;
+  	border-top: solid 1px #1DB7F0;
+  	width: 100%;
+  	background-color: #02241D;
+  	transform: rotate(-1deg);
 }
 
 li {
@@ -42,7 +53,7 @@ li {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #1DB7F0;
     transition: width .3s;
 }
@@ -86,6 +97,8 @@ li {
 	display: flex;
 	align-items: flex-end;
 }
+
+
 
 #project-text-text {
 	padding-left: 5px;

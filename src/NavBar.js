@@ -10,6 +10,7 @@ function NavBar(props) {
 				 <Grid item xs={12} sm={6}>
 				 	<h1><Link className="navbar-title" to="/">mira <b>taferner</b></Link></h1>
 				 </Grid>
+				 <div className="logo-line"></div>
 				<Grid item xs={12} sm={2} className="app-nav-item">
 					<Link to="/portfolio" className="nav-item">what I do</Link>
 				</Grid>
