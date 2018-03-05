@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './NavBar';
-import ListProjects from './ListProjects'
+import ListProjects from './ListProjects';
+import About from './About';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <NavBar />
           <Switch>
           	<Route exact path='/portfolio' render={() => <ListProjects />} />
+            <Route exact path='/about' render={() => <About />} />
           </Switch>
       </div>
     );

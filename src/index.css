@@ -11,7 +11,7 @@ body {
 	color: #CA5541;
 	font-weight: normal;
 	text-decoration: none;
-	margin-top: 15px;
+	margin-top: 35px;
 }
 
 .logo-line{
@@ -19,9 +19,20 @@ body {
   	top: 80px;
   	height: 20px;
   	border-top: solid 1px #1DB7F0;
-  	width: 100%;
+  	width: 101%;
   	background-color: #02241D;
   	transform: rotate(-1deg);
+}
+
+.decorative-line {
+	border-top: solid 1px #1DB7F0;
+	width: 960px;
+}
+
+.small-decorative-line {
+	margin-top: 30px;
+	border-top: solid 1px white;
+	width: 60px;
 }
 
 li {
@@ -90,44 +101,71 @@ li {
 }
 
 .project-img  {
-	margin-right: 4px;
+	background-color: white;
+	max-height: 100%;
+	max-width: 100%;
 }
 
-.info-container {
-	display: flex;
-	align-items: flex-end;
-}
-
-
-
-#project-text-text {
-	padding-left: 5px;
+.project-card {
+	margin: 2px;
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
 }
 
 .project-text {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	position: absolute;
-	padding-bottom: 5px;
-	font-size:17px;
+	position: relative;
+	bottom: 140px;
+	right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 17px;
+	font-weight: 10;
+	transform: rotate(4deg);
+	background: rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	width: 400px;
+	height: 150px;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
 }
 
-span.project-text {
-  background: rgba(0,0,0,0.5);
-  position: top;
-  color: white;
-  cursor: pointer;
-  display: table;
-  width: 325px;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+.project-text span {
+	display: block;
+	padding-top: 80px;
+	padding-left: 5px;
+	transform: rotate(-4deg);
 }
 
-.card:hover span.project-text {
+.project-card:hover .project-text {
   opacity: 1;
 }
 
+.right-menu-column {
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	width: 75%;
+}
+
+.img-window {
+	height: 480px;
+	overflow: hidden;
+}
+
+.img-window img {
+	position: relative;
+	bottom: 250px;
+	height: 960px;
+}
+
+.about-text {
+	padding-top: 30px;
+	width: 960px;
+	color: white;
+	padding-bottom: 30px;	
+}

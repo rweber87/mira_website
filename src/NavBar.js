@@ -8,7 +8,7 @@ function NavBar(props) {
 		<div className="nav">
 			<Grid container spacing={24}>
 				 <Grid item xs={12} sm={6}>
-				 	<h1><Link className="navbar-title" to="/">mira <b>taferner</b></Link></h1>
+				 	<h1 className="navbar-title">mira <b>taferner</b></h1>
 				 </Grid>
 				 <div className="logo-line"></div>
 				<Grid item xs={12} sm={2} className="app-nav-item">
