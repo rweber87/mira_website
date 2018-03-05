@@ -21,7 +21,7 @@ function About() {
 				</div>
 				<div className="decorative-line"></div>
 				<div className="about-text">
-					<div className="title">Vita<br/><br/></div>
+					<div className="title">Vita<br/><br/><br/></div>
 					<div className="work-one">Since 04.2018<br/>Grafikhaus Schlotterer KofmacherGbR</div>
 					<div className="small-decorative-line"></div>
 				</div>
