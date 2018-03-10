@@ -13,7 +13,8 @@ class App extends Component {
       <div className="App">
           <NavBar />
           <Switch>
-          	<Route exact path='/portfolio' render={() => <ListProjects />} />
+            <Route exact path='/' render={() => <ListProjects />} />
+            <Route exact path='/portfolio' render={() => <ListProjects />} />
             <Route exact path='/about' render={() => <About />} />
             <Route exact path='/contact' render={() => <Contact />} />
           </Switch>
