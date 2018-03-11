@@ -52,12 +52,17 @@ li {
 }
 
 .nav-item {
-	padding-top: 100px;
-	padding-left: 50px;
-	padding-right: 50px;
+	font-size: 17px;
+	padding-left: 25px;
 	color: white;	
 	text-decoration: none;
 	position: inline;
+}
+
+div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
+	padding-top: 130px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }
 
 .nav-item::after {
@@ -70,13 +75,13 @@ li {
 }
 
 .nav-item:hover::after {
-    width: 35%;
+    width: 18%;
 }
 
 .content-container {
 	display: flex;
 	flex-direction: row;
-	padding-top: 150px;	
+	padding-top: 120px;	
 }
 
 .left-menu-column {
@@ -104,30 +109,29 @@ li {
 	background-color: white;
 	cursor: pointer;
 	max-height: 100%;
-	max-width: 100%;
 }
 
 .project-card {
-	margin: 2px;
-	height: 300px;
-	width: 350px;
+	margin: 5px;
+	height: 230px;
+	width: 300px;
 	overflow: hidden;
 }
 
 .project-text {
 	position: relative;
-	bottom: 140px;
+	bottom: 70px;
 	right: 20px;
 	padding-left: 20px;
 	padding-bottom: 10px;
 	font-size: 17px;
 	font-weight: 10;
 	transform: rotate(4deg);
-	background: rgba(0,0,0,0.5);
+	background: rgba(2,36,29,0.75);
 	color: white;
 	cursor: pointer;
 	width: 400px;
-	height: 150px;
+	height: 100px;
 	opacity: 0;
 	-webkit-transition: opacity 500ms;
 	-moz-transition: opacity 500ms;
@@ -137,8 +141,8 @@ li {
 
 .project-text span {
 	display: block;
-	padding-top: 80px;
-	padding-left: 5px;
+	padding-top: 7px;
+	padding-left: 17px;
 	transform: rotate(-4deg);
 }
 
@@ -168,7 +172,7 @@ li {
 	font-size: 17px;
 	font-weight: 10;
 	transform: rotate(3deg);
-	background: rgba(0,0,0,0.5);
+	background: rgba(2,36,29,0.75);
 	color: white;
 	width: 1000px;
 	height: 500px;
