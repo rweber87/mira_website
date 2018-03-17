@@ -22,8 +22,6 @@ class Project extends Component {
 	};
 
 	leftImgButton = () => {
-		console.log("left button click");
-		console.log(this.state);
 		if(this.state.currentImg === 0) {
 			this.setState({ currentImg: this.state.imgCarousel.length - 1 })
 		} else {
@@ -32,8 +30,6 @@ class Project extends Component {
 	};
 
 	rightImgButton = () => {
-		console.log("right button click");
-		console.log(this.state);
 		if(this.state.currentImg === this.state.imgCarousel.length - 1) {
 			this.setState({ currentImg: 0 }); 
 		} else {
@@ -42,7 +38,9 @@ class Project extends Component {
 	};
 
 	render () {
-		console.log(this.state)
+		var imgPath = `${this.props.project.modal[this.state.currentImg]}`
+		var imgOrVideo = imgPath.includes("jpg") ? <img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} /> : <video src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} type="video/mp4" autoplay="autoplay" controls ></video>
+			
 		return (
 			<div className="project-card" >
 				<img className="project-img" src={this.props.project.img} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} />
@@ -57,7 +55,7 @@ class Project extends Component {
 			          onClose={this.handleClose}
 			        >
 			    	<div className="project-modal-card" >
-						<img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} />
+						{imgOrVideo}
 							<div className="button-upper-left" onClick={this.leftImgButton}></div>
 			    			<div className="button-lower-left" onClick={this.leftImgButton}></div>
 			    			<div className="button-upper-right" onClick={this.rightImgButton}></div>

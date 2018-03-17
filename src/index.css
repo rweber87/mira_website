@@ -101,6 +101,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	display: flex;
 	flex-direction: row;
 	padding-top: 120px;	
+	margin: 0 auto;
 }
 
 .left-menu-column {
@@ -193,7 +194,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transform: rotate(3deg);
 	background: rgba(2,36,29,0.75);
 	color: white;
-	width: 900;
+	width: 920px;
 	height: 750px;
 	opacity: 1;
 	-webkit-transition: opacity 500ms;
