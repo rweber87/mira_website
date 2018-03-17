@@ -4,6 +4,10 @@ body {
   background-color: #02241D;
 }
 
+#root {
+	max-width: 1100px;
+}
+
 .navbar-title {
 	position: relative;
 	padding-left: 75px;
@@ -12,6 +16,19 @@ body {
 	font-weight: normal;
 	text-decoration: none;
 	margin-top: 35px;
+}
+
+.left-nav {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.right-nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 75%;
+	padding-left: 270px;
 }
 
 .logo-line{
@@ -57,6 +74,8 @@ li {
 	color: white;	
 	text-decoration: none;
 	position: inline;
+	width: 130px;
+	text-align: right;
 }
 
 div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
@@ -75,7 +94,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 }
 
 .nav-item:hover::after {
-    width: 18%;
+    width: 60%;
 }
 
 .content-container {
@@ -113,8 +132,8 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-card {
 	margin: 5px;
-	height: 230px;
-	width: 300px;
+	height: 205px;
+	width: 265px;
 	overflow: hidden;
 }
 
@@ -158,8 +177,8 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-modal-card {
 	margin: 2px;
-	height: 650px;
-	width: 1000px;
+	height: 750px;
+	width: 900px;
 	overflow: hidden;
 }
 
@@ -174,8 +193,8 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transform: rotate(3deg);
 	background: rgba(2,36,29,0.75);
 	color: white;
-	width: 1000px;
-	height: 500px;
+	width: 900;
+	height: 750px;
 	opacity: 1;
 	-webkit-transition: opacity 500ms;
 	-moz-transition: opacity 500ms;
@@ -258,12 +277,13 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 .img-window img {
 	position: relative;
 	bottom: 250px;
-	height: 960px;
+	height: 860px;
+	width: 860px;
 }
 
 .about-text {
 	padding-top: 30px;
-	width: 960px;
+	width: 825px;
 	color: white;
 	padding-bottom: 30px;	
 }
