@@ -25,7 +25,7 @@ function About() {
 				When I am not working, I passionately devote my time to Barbershop music and the community that comes with it.<br/>
 				I enjoy listening to live music, eating healthy food, dreaming about and creating a better future and spending time with people that inspire and uplift me.<br/><br/>
 				Favorite quote atm:<br/><br/>
-				"you can, you should, and if you’re brave enough to start, you will.""
+				"you can, you should, and if you’re brave enough to start, you will."
 				- Stephen King
 				</div>
 				<div className="decorative-line"></div>
