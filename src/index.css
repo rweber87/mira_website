@@ -223,28 +223,28 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 .button-upper-left {
 	position: relative;
 	cursor: pointer;
-	bottom: 60%;
+	bottom: 58.6%;
 	width: 80px;
 	border-top: solid 2px;
 	border-color: #217A63;
-	transform: rotate(-73deg);
+	transform: rotate(-70deg);
 }
 
 .button-lower-left {
 	position: relative;
 	cursor: pointer;
-	bottom: 48.5%;
+	bottom: 49%;
 	width: 80px;
 	border-top: solid 2px;
 	border-color: #217A63;
-	transform: rotate(73deg);
+	transform: rotate(70deg);
 }
 
 .button-upper-right {
 	position: relative;
 	cursor: pointer;
 	float: right;
-	bottom: 60%;
+	bottom: 60.5%;
 	width: 80px;
 	border-bottom: solid 2px;
 	border-color: #217A63;
@@ -287,6 +287,15 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	width: 825px;
 	color: white;
 	padding-bottom: 30px;	
+}
+
+.right-menu-column.container{
+	color: white;
+}
+
+a.email{
+	text-decoration: none !important;
+	color: white;
 }
 
 .social-media {
