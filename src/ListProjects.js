@@ -134,169 +134,169 @@ class ListProjects extends Component {
 			projects: [
 				{
 					title: "print",
-					subtitle: "some book covers",
-					modal_text: "designing book covers is fun. not all of these actually made it to the book shelf but they are pretty enough to go on my webpage.",
+					subtitle: "CD booklet Michael Fitz",
+					modal_text: "The objective was to create a piece of art for every song of this album. By selecting images that matched the song, melting them together and creating a space in the booklet, where every song could feel at home. I spent hours listening to the songs and reading over the lyrics. I got to know Photoshop really well through this project.",
 					img: img1,
 					modal: [img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]
 				},
 				{
-					title: "print",
-					subtitle: "cover design for a book series",
-					modal_text: "sketching, scribbling, doodeling... so much fun to just be creative on a piece of gum wrapper. in this case, I was allowed to make sketch notes on 6 different topics. the covers of this series of books was for the 20 year aniversary of this particular format of self help books. the covers in 6 different colors looks especially nice in the »box« that they were presented in in the book shops.",
+					title: "other",
+					subtitle: "The new currency",
+					modal_text: "A genuine birthday present in a money ruled world: time bills, each one connected to an activity, not an amount of money. City trip, movie or game night, hiking...that's real value!!!",
 					img: img13,
 					modal: [img14, img15, img16, img17 ]
 				},
 				{
 					title: "print",
-					subtitle: "Michael Fitz CD booklet",
-					modal_text: "one of the most time consuming projects I have ever worked on. each of the 23 songs on the cd received its own design. Michale gave me paintings that his wife had made and a hard drive full of pictures he took of the sky and asked me to just be free and creating the visual for each song. I definitely got to know photoshop a bit better. I wish projects like theses would happen more often.",
+					subtitle: "Cover design for a book series",
+					modal_text: "Sketching, scribbling, doodeling... so much fun to just be creative on a piece of gum wrap. In this case, I was allowed to make sketch notes for six different books on six different topics in once big box to present them in book shops. This particular format of self help books was celebrating there 20 year anniversary and I had so much fun with it.",
 					img: img18,
 					modal: [img19, img20, img21 ]
 				},
 				{
 					title: "print",
-					subtitle: "pamphlets for lumber a company",
-					modal_text: "sketching, scribbling, doodeling... so much fun to just be creative on a piece of gum wrapper. in this case, I was allowed to make sketch notes on 6 different topics. the covers of this series of books was for the 20 year aniversary of this particular format of self help books. the covers in 6 different colors looks especially nice in the »box« that they were presented in in the book shops.",
+					subtitle: "Flyer for a non-profit organization",
+					modal_text: "BayLGB is a non-profit organization that collaborates closely with the judiciary system to provide help for men and women after prisoner release. After the layout for the first flyer was done, we individualized and customized a Version for every state in Germany",
 					img: img22,
 					modal: [img23]
 				},
 				{
-					title: "print",
-					subtitle: "pamphlets for idk???",
-					modal_text: "here are more pamphlets lorem ipsum",
+					title: "digital",
+					subtitle: "Animated christmas cards for a bank",
+					modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank, specialized in real estate financing and public investment finance. The bank loved it and brought the snowman back Christmas the following year.",
 					img: img24,
 					modal: [img25, img26, img27, img28]
 				},
 				{
-					title: "print",
-					subtitle: "building a deck",
-					modal_text: "for this project i actually learned how to build a deck. the client gave almost no instruction and i built this from scratch...pun intended",
+					title: "other",
+					subtitle: "A children's songbook with heart",
+					modal_text: "A unique songbook created as a special gift: in a team approach, we researched and picked children's songs, recorded them and got artsy with paper and pen. Finally I compiled it into a 22 page book.",
 					img: img29,
 					modal: [img30, img31, img32, img33]
 				},
 				{
 					title: "print",
-					subtitle: "wedding invitations",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					subtitle: "Wedding invitation, RSVP, place cards",
+					modal_text: "Willow & Gareth had ideas for the artwork of their wedding. Their ideas were beautiful and it was easy for me to »feel« what they were looking for. The layout we put together was used for the invitations, RSVP cards, an Info letter, place cards, the menus and a picture that the guests could sign and Willow & Gareth were able to take home to always remember this special day.",
 					img: img34,
 					modal: [img35, img36, img37, img38, img39, img40]
 				},
 				{
-					title: "print",
-					subtitle: "language school promo material",
-					modal_text: "here is some swag i made for a language school around blah blah blah",
+					title: "other",
+					subtitle: "Wall tattoo for an underwater scenery",
+					modal_text: "This project was a unique underwater scenery for the wall around the clients sons bed to match her favourite song: Yellow Submarine. I designed a customized submarine and different underwater animals with personality.",
 					img: img41,
 					modal: [img42, img43, img44, img45, img46, img47, img48, img49]
 				},
 				{
-					title: "other",
-					subtitle: "designs for wall decals",
-					modal_text: "a good friend had a baby and asked me to design some wall decals for the baby's room. i think they came out quite neat",
+					title: "print/logo",
+					subtitle: "Logo and stationary Theresa cosmetics",
+					modal_text: "Theresa's wish to name the studio with her own name, came from her desire to build a close relationship with her clients. When people make an apointment, they go to see Theresa. So it was important for her to identify especially with the logo and also with her whole new look. Once the logo was finished we branded the studio by applying the color theme of the logo for the interior. Flyers, business cards, leaflets, posters, vouchers, christmas cards... It all speaks Theresa's language.",
 					img: img50,
 					modal: [img51, img52, img53, img54]
 				},
 				{
 					title: "other",
-					subtitle: "CD cover design",
-					modal_text: "when my friend francois called me to ask if I would be willing to help him do the cover design for his new CD I was very excited. I love listening to him when he talks about his music, he is so passionate, so on fire. he invited me for dinner, told me about the idea behind his new cd and what it means to him. It's about his journey. »RESTLESS« is the perfect name for this album, especially if you know francois ;-) once the name was there, the rest just fell into place.",
+					subtitle: "Icon-set for an online shop",
+					modal_text: "Victor York is an online shop for custom tailored shirts for men. I designed an icon-set that was used online, to help customers navigate through the customization tool for choosing fit, collar or cuff style.",
 					img: img55,
 					modal: [img56]
 				},
 				{
-					title: "logo and print",
-					subtitle: "cosmetic company designs",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "logo/print",
+					subtitle: "Logo and stationary for a motion media picture company",
+					modal_text: "The graphic agency I worked for at the time had done the Corporate Design for this company 15 years ago. It was time for something new. I relaunched the logo giving it a modern and fresh look but also including the exclamation mark that had been the main graphic element of the old logo.",
 					img: img57,
 					modal: [img58, img59]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "digital",
+					subtitle: "Animated christmas card for Grafikhaus",
+					modal_text: "Animating christmas cards became a new and playful field for me, when I started animating ads and headers for websites. Here are two christmas cards I animated for my company at the time. Simple and short. Just the way I like it.",
 					img: img60,
 					modal: [img61, img62]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "logo/print",
+					subtitle: "Logo and stationary for a language school",
+					modal_text: "A logo in a playful, child appealing look but at the same time serious enough to demonstrate the school's professional approach in teaching children a foreign language. No books required: what a great way to learn a language!",
 					img: img63,
 					modal: [img64, img65]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "print",
+					subtitle: "Marketing materials of all sorts and so much more",
+					modal_text: "My longest client with whom I learned most of what I know about graphic design today. A big company with a strict CI and lots different projects. Tight deadlines and many people involved in the design process. printed marketing materials, t-shirts, product packaging, presentations, interior guidance and adds. It was never boring.",
 					img: img66,
 					modal: [img67, img68, img69, img70, img71, img72, img73, img74, img75, img76, img77]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "logo/print",
+					subtitle: "Logo and stationary for handmade jewelry",
+					modal_text: "Feminine yet strong, clean, precious, elegant and light. A logo to match the simple and beautiful jewelry Gioia makes.",
 					img: img78,
 					modal: [img79, img80, img81, img82]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "print",
+					subtitle: "Brochure for non-profit",
+					modal_text: "REGSAM is a Munich based non-profit organization thats goal it is, to build a network that helps to get the right people to the place they are needed. Hospitals, refugee homes, rehab counselors, safe homes... The brochure is a telephone book to make sure people get the help they need.",
 					img: img83,
 					modal: [img84]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "logo/print",
+					subtitle: "Logo and stationary for a company that distributes wide-buckets for excavators",
+					modal_text: "Objective was to create a logo that feels heavy and strong, yet light and agile. Just like the wide-buckets the company distributes. Quite a challenge I found, but I am pleased with the result.",
 					img: img85,
 					modal: [img86, img87]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "print",
+					subtitle: "Brochure for exterior decking",
+					modal_text: "A 50 page brochure that comes out once a year in spring season to showcase the companies newest outdoor decking materials. My work also included creating the illustrations for the »how to« page, a step by step instruction for do-it-yourselfer.",
 					img: img88,
 					modal: [img89, img90, img91, img92, img93, img94]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "other",
+					subtitle: "CD cover design",
+					modal_text: "CD covers are fun jobs, even more so, when the artist let's you in on what it is, that drives him to create his/her music. Empathy is important in order to transport the message of your project with power. Especially when it comes to music!",
 					img: img95,
 					modal: [img96, img97]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "other",
+					subtitle: "Icon-set for a packaging company",
+					modal_text: "Part of the relaunch we did for one of the worldwide leading manufacturers in the packaging technology sector, was to create a set of icons to show the different wrapping techniques available for machines. I enjoyed to visualize the differences through downsizing and simplification.",
 					img: img98,
 					modal: [img99]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "logo/print",
+					subtitle: "Logo and stationary for a massage therapist",
+					modal_text: "A small project that was a lot of fun. Creating this logo was an interesting process. Didn't know much about tantra massages till I met this woman. I liked the name she came up with. Provocative and honest at the same time.",
 					img: img100,
 					modal: [img101, img102]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "print",
+					subtitle: "Marketing materials and give aways",
+					modal_text: "I designed marketing material for an event aimed to inform about the book trade and publishing industry and encourage young adults to seek a career in this sector. This event is now in its 5th year and has helped the industry become more attractive to young people.",
 					img: img103,
 					modal: [img104, img105, img106]
 				},
 				{
 					title: "logos",
 					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					modal_text: "",
 					img: img107,
 					modal: [img108, img109, img110, img111, img112, img113, img114, img115, img116]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "a beautiful wedding that was accompanied by these amazing inviations, name holders etc...",
+					title: "print",
+					subtitle: "Book covers worth showing",
+					modal_text: "I enjoy to play with importance of information and find new ways to priorities text elements on a page. Book covers are great jobs to do that and also get creative with the design. Not all of these covers actually made it to the shops but I like them. So here they are!",
 					img: img117,
 					modal: [img118, img119, img120, img121, img122, img123, img124]
 				},

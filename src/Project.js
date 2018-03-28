@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'material-ui/Modal';
+import Modal from 'react-modal';
 
 class Project extends Component {
 
@@ -7,18 +7,19 @@ class Project extends Component {
 		super(props)
 
 		this.state = {
-			open: false,
+			showModal: false,
 			currentImg: 0,
 			imgCarousel: this.props.project.modal
 		}
 	}
 
 	handleOpen = () => {
-	    this.setState({ open: true });
+		console.log(this.state)
+	    this.setState({ showModal: true });
 	};
 
 	handleClose = () => {
-	    this.setState({ open: false });
+	    this.setState({ showModal: false });
 	};
 
 	leftImgButton = () => {
@@ -45,24 +46,28 @@ class Project extends Component {
 			<div className="project-card" >
 				<img className="project-img" src={this.props.project.img} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} />
 					<div className="project-text" onClick={this.handleOpen} >
-						<span><b>{this.props.project.title}</b><br/>{this.props.project.subtitle}</span>
+						<span><b>{this.props.project.title}</b><br/><br/>{this.props.project.subtitle}</span>
 					</div>
 				<Modal
 					  className="project-modal"
 			          aria-labelledby="simple-modal-title"
 			          aria-describedby="simple-modal-description"
-			          open={this.state.open}
+			          isOpen={this.state.showModal}
 			          onClose={this.handleClose}
+			          shouldCloseOnEsc={true}
+			          style={"{overlay: {backgroundColor: 'papayawhip'}"}
 			        >
 			    	<div className="project-modal-card" >
+		    			<div className="close-button-1" onClick={this.handleClose}></div>
+		    			<div className="close-button-2" onClick={this.handleClose}></div>
 						{imgOrVideo}
-							<div className="button-upper-left" onClick={this.leftImgButton}></div>
-			    			<div className="button-lower-left" onClick={this.leftImgButton}></div>
-			    			<div className="button-upper-right" onClick={this.rightImgButton}></div>
-			    			<div className="button-lower-right" onClick={this.rightImgButton}></div>
-							<div className="project-modal-text" >
-								<span><b>{this.props.project.title}</b><br/>{this.props.project.modal_text}</span>
-							</div>
+						<div className="button-upper-left" onClick={this.leftImgButton}></div>
+		    			<div className="button-lower-left" onClick={this.leftImgButton}></div>
+		    			<div className="button-upper-right" onClick={this.rightImgButton}></div>
+		    			<div className="button-lower-right" onClick={this.rightImgButton}></div>
+						<div className="project-modal-text" >
+							<p><b>{this.props.project.title}</b><br/>{this.props.project.modal_text}</p>
+						</div>
 					</div>
 			        </Modal>
 			</div>

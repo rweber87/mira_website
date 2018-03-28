@@ -140,11 +140,11 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-text {
 	position: relative;
-	bottom: 70px;
+	bottom: 95px;
 	right: 20px;
 	padding-left: 20px;
 	padding-bottom: 10px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 10;
 	transform: rotate(4deg);
 	background: rgba(2,36,29,0.75);
@@ -161,7 +161,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-text span {
 	display: block;
-	padding-top: 7px;
+	padding-top: 20px;
 	padding-left: 17px;
 	transform: rotate(-4deg);
 }
@@ -203,7 +203,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transition: opacity 500ms;
 }
 
-.project-modal-text span {
+.project-modal-text p {
 	display: block;
 	padding-top: 80px;
 	padding-left: 5px;
@@ -218,6 +218,10 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.ReactModal__Overlay--after-open{
+	background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
 .button-upper-left {
@@ -261,6 +265,26 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	border-color: #217A63;
 	transform: rotate(-73deg);
 	padding-top: 167px;
+}
+
+.close-button-1{
+	position: relative;
+	cursor: pointer;
+	top: 7%;
+	width: 80px;
+	border-bottom: solid 2px;
+	border-color: #217A63;
+	transform: rotate(-45deg);
+}
+
+.close-button-2{
+	position: relative;
+	cursor: pointer;
+	top: 7%;
+	width: 80px;
+	border-bottom: solid 2px;
+	border-color: #217A63;
+	transform: rotate(45deg);
 }
 
 .right-menu-column {
