@@ -287,9 +287,9 @@ class ListProjects extends Component {
 					modal: [img104, img105, img106]
 				},
 				{
-					title: "logos",
-					subtitle: "examples of logos",
-					modal_text: "",
+					title: "logo",
+					subtitle: "An overview",
+					modal_text: "“Creativity is nothing but a mind set free.” –Torrie T. Asai ",
 					img: img107,
 					modal: [img108, img109, img110, img111, img112, img113, img114, img115, img116]
 				},
