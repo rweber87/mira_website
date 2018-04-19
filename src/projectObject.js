@@ -169,8 +169,8 @@ var projectObject =
 				},
 				{
 					title: "print",
-					subtitle: "Wedding invitation, RSVP, place cards",
-					modal_text: "Willow & Gareth had ideas for the artwork of their wedding. Their ideas were beautiful and it was easy for me to »feel« what they were looking for. The layout we put together was used for the invitations, RSVP cards, an Info letter, place cards, the menus and a picture that the guests could sign and Willow & Gareth were able to take home to always remember this special day.",
+					subtitle: "Wedding",
+					modal_text: "Willow & Gareth’s ideas for their wedding material were beautiful and it was easy for me to feel what they were looking for. The design was used on invitations, RSVP cards, info letters, place cards, the food and drink menus, and a unique guest tree.",
 					img: img34,
 					modal: [img35, img36, img37, img38, img39, img40]
 				},
@@ -218,8 +218,8 @@ var projectObject =
 				},
 				{
 					title: "print",
-					subtitle: "Marketing materials of all sorts and so much more",
-					modal_text: "My longest client with whom I learned most of what I know about graphic design today. A big company with a strict CI and lots different projects. Tight deadlines and many people involved in the design process. printed marketing materials, t-shirts, product packaging, presentations, interior guidance and adds. It was never boring.",
+					subtitle: "Marketing materials of all sorts",
+					modal_text: "Working for Klöpfer meant lots of challenging projects, a strict CD, tight deadlines and many people involved in the design process. I create marketing materials, product packaging, presentations and so much more. This is a small representation of my 5 years working for this client.",
 					img: img66,
 					modal: [img67, img68, img69, img70, img71, img72, img73, img74, img75, img76, img77]
 				},

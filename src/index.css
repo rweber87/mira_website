@@ -250,9 +250,9 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .inner-modal-text-subtitle { 
 	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
+	font-size: 13px;
 	transform: rotate(-2deg);
-	padding-top: 17px;
+	padding-top: 20px;
 }
 
 .inner-modal-text-name {
@@ -281,31 +281,6 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
-.button-upper-left {
-	position: relative;
-	left: 13px;
-	cursor: pointer;
-	bottom: 58.6%;
-	width: 50px;
-	height: 40px;
-	border-top: solid 2px;
-	border-color: #217A63;
-	transform: rotate(-70deg);
-}
-
-.button-lower-left {
-	position: relative;
-	left: 13px;
-	cursor: pointer;
-	bottom: 60%;
-	width: 50px;
-	height: 40px;
-	border-bottom: solid 2px;
-	margin-bottom: 10px;
-	border-color: #217A63;
-	transform: rotate(70deg);
-}
-
 .button-upper-left-no-show {
 	position: relative;
 	left: 13px;
@@ -331,13 +306,39 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transform: rotate(70deg);
 }
 
+.button-upper-left {
+	position: relative;
+	left: 13px;
+	cursor: pointer;
+	bottom: 58.6%;
+	width: 30px;
+	height: 40px;
+	border-top: solid 2px;
+	border-color: #217A63;
+	transform: rotate(-70deg);
+}
+
+.button-lower-left {
+	position: relative;
+	left: 13px;
+	cursor: pointer;
+	bottom: 62.4%;
+	width: 30px;
+	height: 40px;
+	border-bottom: solid 2px;
+	margin-bottom: 10px;
+	border-color: #217A63;
+	transform: rotate(70deg);
+}
+
+
 .button-upper-right {
 	position: relative;
-	right: 12px;
+	right: 15px;
 	cursor: pointer;
 	float: right;
 	bottom: 72%;
-	width: 50px;
+	width: 30px;
 	height: 40px;
 	border-top: solid 2px;
 	border-color: #217A63;
@@ -347,10 +348,10 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 .button-lower-right {
 	position: relative;
 	cursor: pointer;
-	left: 38px;
+	left: 15px;
 	float: right;
-	bottom: 67.2%;
-	width: 50px;
+	bottom: 69.8%;
+	width: 30px;
 	height: 40px;
 	border-bottom: solid 2px;
 	border-color: #217A63;
@@ -362,10 +363,10 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	cursor: pointer;
 	left: 1px;
 	bottom: 100%;
-	width: 5px;
+	width: 0px;
 	height: 40px;
 	padding-left: 50px;
-	border-bottom: solid 2px;
+	border-bottom: solid 1px;
 	border-color: #217A63;
 	transform: rotate(-45deg);
 }
@@ -375,10 +376,10 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	cursor: pointer;
 	left: 29px;
 	bottom: 105.4%;
-	width: 5px;
+	width: 0px;
 	height: 40px;
 	padding-left: 50px;
-	border-bottom: solid 2px;
+	border-bottom: solid 1px;
 	border-color: #217A63;
 	transform: rotate(45deg);
 }

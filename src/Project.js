@@ -93,7 +93,7 @@ class Project extends Component {
 		    			{lowerRightArrow}								    			
 						<div className="project-modal-text" >
 							<div className="inner-modal-text-title">{this.props.project.title}</div><div className="inner-modal-text-subtitle">&nbsp;&nbsp;|&nbsp; {this.props.project.subtitle}</div>
-							<div className="inner-modal-text-name"><br/>{this.props.project.modal_text}</div>
+							<div className="inner-modal-text-name"><br/><br/>{this.props.project.modal_text}</div>
 						</div>
 					</div>
 			        </Modal>
