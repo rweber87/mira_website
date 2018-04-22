@@ -79,6 +79,7 @@ class Project extends Component {
 			          onClose={this.handleClose}
 			          shouldCloseOnEsc={true}
 			          onRequestClose={this.handleCloseModal}
+			          shouldCloseOnOverlayClick={true}
 			          style={"{overlay: {backgroundColor: 'papayawhip'}"}
 			          leftKey={this.onLeftKeyPress}
 			          rightKey={this.onRightKeyPress}
