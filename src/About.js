@@ -18,8 +18,9 @@ function About() {
 				<div className="img-window">
 					<img alt={""} id={"headshot"} src={headshot} />
 				</div>
-				<div className="about-text" >My name is Mira and I am a Munich based graphic designer with 7 years of working experience with a diverse selection of clients and projects. After graduating from MDH in Munich in 2010, I found a small graphic design agency that I have been working for till today. For the last 3 years I have also been doing free-lance work on the side. I enjoy working as a team, to hear  different opinions and see other angles and approaches. I see opportunity to learn, grow, inspire and communicate with every job that comes my way. I appreciate honest conversation, strategic thinking, fun brainstorming, working closely with my clients throughout the design process and building client relationships that last.<br/><br/>
-				<strong>I want to create good looking stuff that works.</strong><br/><br/>
+				<div className="about-title">who I am</div>
+				<div className="about-text" >As a driven and creative senior graphic designer with over 7 years of work experience in both print and digital environments, I value and enjoy brainsprouting, problem solving, strategic thinking, honest conversation and candidness. A diverse selection of clients and projects has complemented my consistent desire to find opportunities, learn, and grow with every task that comes my way. My steady desire to understand client needs and wishes allows me to provide solutions that are not only visually appealing but also user friendly and clear. I believe that good design is rooted in understanding what you are communicating.<br/><br/>
+				I want to create good looking stuff that works.<br/><br/>
 				When I am not working, I passionately devote my time to Barbershop music and the community that comes with it.<br/>
 				I enjoy listening to live music, eating healthy food, dreaming about and creating a better future and spending time with people that inspire and uplift me.<br/><br/>
 				Favorite quote atm:<br/><br/>

@@ -23,9 +23,7 @@ import img22 from './images/BayLGB_Landingpage.jpg'
 import img23 from './images/bay_images/BayLGB_1.jpg'
 import img24 from './images/PBB_Landingpage.jpg'
 import img25 from './images/pbb_images/pbb_Neujahrsgruesse_2016_klein.mp4'
-import img26 from './images/pbb_images/pbb_Weihnachtsgruesse_2016_klein.mp4'
 import img27 from './images/pbb_images/RZ_pbb_Neujahrskarte_digital_2017_klein.mp4'
-import img28 from './images/pbb_images/RZ_pbb_Weihnachtskarte_digital_2017_klein.mp4'
 import img29 from './images/Kinderliederbuch_landingpage.jpg'
 import img30 from './images/kinder_images/Kinderliederbuch_1.jpg'
 import img31 from './images/kinder_images/Kinderliederbuch_2.jpg'
@@ -158,7 +156,7 @@ var projectObject =
 					subtitle: "Animated christmas cards for a bank",
 					modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank, specialized in real estate financing and public investment finance. The bank loved it and brought the snowman back Christmas the following year.",
 					img: img24,
-					modal: [img25, img26, img27, img28]
+					modal: [img25, img27]
 				},
 				{
 					title: "other",
@@ -233,7 +231,7 @@ var projectObject =
 				{
 					title: "print",
 					subtitle: "Brochure for non-profit",
-					modal_text: "REGSAM is a Munich based non-profit organization thats goal it is, to build a network that helps to get the right people to the place they are needed. Hospitals, refugee homes, rehab counselors, safe homes... The brochure is a telephone book to make sure people get the help they need.",
+					modal_text: "REGSAM is a non-profit organization also called »the nerve system of Munich«. Their goal is to build a network that connects people in need with the right place to go. Hospitals, refugee homes, rehab counselors, safe homes… This brochure is a telephone book for the social service sector.",
 					img: img83,
 					modal: [img84]
 				},

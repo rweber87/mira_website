@@ -8,8 +8,13 @@ body {
 	max-width: 1100px;
 }
 
-b.last_name {
+h1.last_name {
 	font-family: 'Lora', serif;
+	font-weight: bold;
+	margin-left: 140px;
+	padding-top: 11px;
+	color: #CA5541;
+
 }
 
 .navbar-title {
@@ -78,10 +83,9 @@ li {
 	font-size: 17px;
 	padding-left: 65px;
 	font-family: 'Lora', serif;
-	padding-top: 100px;		
+	padding-top: 20px;		
 	color: white;	
 	text-decoration: none;
-	position: inline;
 	width: 120px;
 	text-align: right;
 }
@@ -108,7 +112,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 .content-container {
 	display: flex;
 	flex-direction: row;
-	padding-top: 120px;	
+	padding-top: 90px;	
 	margin: 0 auto;
 }
 
@@ -154,7 +158,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-text {
 	position: relative;
-	bottom: 70px;
+	bottom: 95px;
 	right: 20px;
 	padding-left: 20px;
 	padding-bottom: 10px;
@@ -184,14 +188,13 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
   opacity: 1;
 }
 
-.project-modal-img  {
+.project-modal-card img  {
 	background-color: white;
 	max-height: 100%;
 	max-width: 100%;
 }
 
 .project-modal-card {
-	margin: 2px;
 	height: 750px;
 	width: 900px;
 	overflow: hidden;
@@ -202,7 +205,6 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	bottom: 315px;
 	right: 20px;
 	padding-left: 20px;
-	padding-bottom: 10px;
 	font-size: 13px;
 	font-weight: 10;
 	transform: rotate(2deg);
@@ -223,7 +225,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	display: block;
 	font-size: 17px;
 	padding-top: 14px;
-	padding-left: 5px;
+	padding-left: 20px;
 	transform: rotate(-4deg);
 }
 
@@ -232,9 +234,24 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	font-size: 13px;
 	transform: rotate(-4deg);
 	width: 255px;
-	white-space: normal; 
-	padding-top: 15px;
-	padding-left: 6px;
+	white-space: normal;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+.inner-modal-text {
+	position: relative;
+	bottom: 315px;
+	right: 20px;
+	padding-left: 20px;
+	font-size: 13px;
+	font-weight: 10;
+	transform: rotate(2deg);
+	background: rgba(2,36,29,0.75);
+	color: white;
+	width: 920px;
+	height: 750px;
+	opacity: 1;
 }
 
 .inner-modal-text-title {
@@ -242,17 +259,16 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	font-weight: bold;
 	font-size: 17px;
 	display: block;
-	padding-top: 30px;
 	padding-left: 10px;
 	float: left;
-	transform: rotate(-2deg);
 }
 
 .inner-modal-text-subtitle { 
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	transform: rotate(-2deg);
-	padding-top: 20px;
+	padding-top: 35px;
+	width: 500px;
 }
 
 .inner-modal-text-name {
@@ -261,7 +277,17 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	font-size: 13px;
 	width: 859px;
 	transform: rotate(-2deg);
-	line-height: 1.3;
+	line-height: 2.0;
+	padding-left: 10px;
+	padding-top: 24px;
+}
+
+.inner-modal-description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	width: 859px;
+	transform: rotate(-2deg);
+	line-height: 2.0;
 	padding-left: 10px;
 }
 
@@ -269,17 +295,30 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
   opacity: 1;
 }
 
-.project-modal {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.project-modal-overlay {
+	position: fixed;
 	height: 100%;
 	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(2,36,29,0.75);
 }
 
+.project-modal {
+	outline: none;
+	height: 750px;
+	width: 900px;
+}
+
+/*
 .ReactModal__Overlay--after-open{
 	background-color: rgba(255, 255, 255, 0.3) !important;
-}
+}*/
 
 .button-upper-left-no-show {
 	position: relative;
@@ -403,9 +442,16 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	width: 860px;
 }
 
+.about-title{
+	font-family: 'Lora', serif;
+	color: white;
+	padding-top: 25px;
+}
+
 .about-text {
 	font-family: 'Raleway', sans-serif;
-	padding-top: 30px;
+	padding-top: 25px;
+	font-size: 13px;
 	width: 825px;
 	color: white;
 	padding-bottom: 30px;	
