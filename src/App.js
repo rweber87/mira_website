@@ -8,20 +8,29 @@ import Contact from './Contact';
 
 
 class App extends Component {
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      selectedFilter: "portfolio",
+    };
+  }
+
   render() {
     return (
       <div className="App">
           <NavBar />
           <div className="right-nav">
-            <Link to="/portfolio" className="nav-item">what I do</Link>
-            <Link to="/about" className="nav-item">who I am</Link>
-            <Link to="/contact" className="nav-item">get in touch</Link>
+            <Link to="/whatido" className="nav-item">what I do</Link>
+            <Link to="/whoiam" className="nav-item">who I am</Link>
+            <Link to="/getintouch" className="nav-item contact">get in touch</Link>
           </div>
           <Switch>
             <Route exact path='/' render={() => <ListProjects />} />
-            <Route exact path='/portfolio' render={() => <ListProjects />} />
-            <Route exact path='/about' render={() => <About />} />
-            <Route exact path='/contact' render={() => <Contact />} />
+            <Route exact path='/whatido' render={() => <ListProjects />} />
+            <Route exact path='/whoiam' render={() => <About />} />
+            <Route exact path='/getintouch' render={() => <Contact />} />
           </Switch>
       </div>
     );

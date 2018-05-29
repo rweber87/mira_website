@@ -1,4 +1,6 @@
 import React from 'react';
+import imgli from './images/Icon_linkedin.png';
+import imgbe from './images/Icon_behance.png';
 
 function Contact() {
 	return(
@@ -10,11 +12,8 @@ function Contact() {
 				<div className="contact-paragraph-content">Want to talk about your project? Then get in touch! <br/>I am looking forward to hearing from you.</div>
 				<div className="contact-name">Mira Taferner</div>
 				<div className="contact-email"><a className="email" href="mailto:mira.taferner@n0t.net">mira.taferner@n0t.net</a></div>
-				<div className="contact-phone-number">+49 152 540 78 139</div>
-				<div className="contact-social">or find me here &nbsp;&nbsp;<a className="social-media linkedin" href={"https://www.linkedin.com/in/mira-taferner-5b54a563/"} className={"fa fa-linkedin"}></a>&nbsp;&nbsp; or here &nbsp;&nbsp;<a className="social-media instagram" href={"https://www.behance.net/miratafernbf78"} className={"fa fa-behance"}></a></div>
-				{/*<li><div className="social-media facebook"><a href={"https://www.facebook.com/mira.taferner"} className={"fa fa-facebook"}></a></div></li>
-				<li><div className="social-media linkedin"><a href={"https://www.linkedin.com/in/mira-taferner-5b54a563/"} className={"fa fa-linkedin"}></a></div></li>
-				<li><div className="social-media instagram"><a href={"https://www.instagram.com/schnago/"} className={"fa fa-instagram"}></a></div></li>*/}
+				{/*<div className="contact-phone-number">+49 152 540 78 139</div>*/}
+				<div className="contact-social">or find me here &nbsp;&nbsp;<a href={"https://www.linkedin.com/in/mira-taferner-5b54a563/"}><img className="social-media linkedin" src={imgli} /></a>&nbsp;&nbsp; or here &nbsp;&nbsp;<a href={"https://www.behance.net/miratafernbf78"}><img className="social-media behance" src={imgbe} /></a></div>
 			</div>
 		</div>
 	)

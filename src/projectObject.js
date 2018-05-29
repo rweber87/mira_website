@@ -112,6 +112,7 @@ import img113 from './images/logo_images/Logo_6.jpg'
 import img114 from './images/logo_images/Logo_7.jpg'
 import img115 from './images/logo_images/Logo_8.jpg'
 import img116 from './images/logo_images/Logo_9.jpg'
+import img125 from './images/logo_images/Logo_11.jpg'
 import img117 from './images/Cover_Landingpage.jpg'
 import img118 from './images/cover_images/Cover_1.jpg'
 import img119 from './images/cover_images/Cover_2.jpg'
@@ -126,42 +127,42 @@ var projectObject =
 				{
 					title: "print",
 					subtitle: "CD booklet Michael Fitz",
-					modal_text: "The objective was to create a piece of art for every song of this album. By selecting images that matched the song, melting them together and creating a space in the booklet, where every song could feel at home. I spent hours listening to the songs and reading over the lyrics. I got to know Photoshop really well through this project.",
+					modal_text: "The objective was to create a piece of art for every song of this album. By selecting images that matched each song and melting them together, every song received space in the booklet to feel at home. I spent hours listening to the songs. This project pimped my Photoshop skills!",
 					img: img1,
 					modal: [img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]
 				},
 				{
 					title: "other",
 					subtitle: "The new currency",
-					modal_text: "A genuine birthday present in a money ruled world: time bills, each one connected to an activity, not an amount of money. City trip, movie or game night, hiking...that's real value!!!",
+					modal_text: "A genuine birthday present in a money ruled world: time bills! Each one connected to an activity, not an amount of money. City trip, movie or game night, hiking weekend… that's real value!!!",
 					img: img13,
 					modal: [img14, img15, img16, img17 ]
 				},
 				{
 					title: "print",
 					subtitle: "Cover design for a book series",
-					modal_text: "Sketching, scribbling, doodeling... so much fun to just be creative on a piece of gum wrap. In this case, I was allowed to make sketch notes for six different books on six different topics in once big box to present them in book shops. This particular format of self help books was celebrating there 20 year anniversary and I had so much fun with it.",
+					modal_text: "Scribbling… it’s fun to get creative on a piece of gum wrapper or on book covers! This particular format of self help books was celebrating their 20 year anniversary and I created sketch notes for six different books on six different topics and the matching presenter box.",
 					img: img18,
 					modal: [img19, img20, img21 ]
 				},
 				{
 					title: "print",
 					subtitle: "Flyer for a non-profit organization",
-					modal_text: "BayLGB is a non-profit organization that collaborates closely with the judiciary system to provide help for men and women after prisoner release. After the layout for the first flyer was done, we individualized and customized a Version for every state in Germany",
+					modal_text: "BayLGB is a non-profit organization that collaborates closely with the judiciary system to provide support for men and women when they've been released from prison. After the layout for the first flyer was done we customized versions for every state in Germany.",
 					img: img22,
 					modal: [img23]
 				},
-				{
-					title: "digital",
-					subtitle: "Animated christmas cards for a bank",
-					modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank, specialized in real estate financing and public investment finance. The bank loved it and brought the snowman back Christmas the following year.",
-					img: img24,
-					modal: [img25, img27]
-				},
+				// {
+				// 	title: "digital",
+				// 	subtitle: "Animated christmas cards for a bank",
+				// 	modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank that specializes in real estate financing and public investment. The bank loved it and brought the snowman back for Christmas the following year.",
+				// 	img: img24,
+				// 	modal: [img25, img27]
+				// },
 				{
 					title: "other",
 					subtitle: "A children's songbook with heart",
-					modal_text: "A unique songbook created as a special gift: in a team approach, we researched and picked children's songs, recorded them and got artsy with paper and pen. Finally I compiled it into a 22 page book.",
+					modal_text: "A unique songbook created as a special gift: in a team approach we researched and picked children's songs, recorded them and got artsy with paper and pen. Finally, I compiled it into a 22 page book.",
 					img: img29,
 					modal: [img30, img31, img32, img33]
 				},
@@ -175,119 +176,119 @@ var projectObject =
 				{
 					title: "other",
 					subtitle: "Wall tattoo for an underwater scenery",
-					modal_text: "This project was a unique underwater scenery for the wall around the clients sons bed to match her favourite song: Yellow Submarine. I designed a customized submarine and different underwater animals with personality.",
+					modal_text: "The task was to create a unique underwater scenery for the wall above the client’s son`s bed to match her favourite song: Yellow Submarine. I designed a customized submarine and different underwater animals with personality.",
 					img: img41,
 					modal: [img42, img43, img44, img45, img46, img47, img48, img49]
 				},
 				{
 					title: "print // logo",
-					subtitle: "Logo and stationary Theresa cosmetics",
-					modal_text: "Theresa's wish to name the studio with her own name, came from her desire to build a close relationship with her clients. When people make an apointment, they go to see Theresa. So it was important for her to identify especially with the logo and also with her whole new look. Once the logo was finished we branded the studio by applying the color theme of the logo for the interior. Flyers, business cards, leaflets, posters, vouchers, christmas cards... It all speaks Theresa's language.",
+					subtitle: "Logo & stationary Theresa cosmetics",
+					modal_text: "When branding a company with your own name it is important to identify with the logo and the look created. The logo, flyers, business cards, leaflets, posters, vouchers, christmas cards, the interior of the studios… It all speaks Theresa's language.",
 					img: img50,
 					modal: [img51, img52, img53, img54]
 				},
 				{
 					title: "other",
 					subtitle: "Icon-set for an online shop",
-					modal_text: "Victor York is an online shop for custom tailored shirts for men. I designed an icon-set that was used online, to help customers navigate through the customization tool for choosing fit, collar or cuff style.",
+					modal_text: "Victor York is an online shop for custom tailored shirts. I designed an icon-set that was used online to help customers navigate through the customization tool for choosing fit, collar or cuff style.",
 					img: img55,
 					modal: [img56]
 				},
 				{
 					title: "logo // print",
-					subtitle: "Logo and stationary for a motion media picture company",
-					modal_text: "The graphic agency I worked for at the time had done the Corporate Design for this company 15 years ago. It was time for something new. I relaunched the logo giving it a modern and fresh look but also including the exclamation mark that had been the main graphic element of the old logo.",
+					subtitle: "Logo & stationary for a media company",
+					modal_text: "The company I worked for at the time had created the visual identity for “Conradt and friends production” 15 years ago. It was time for something new. I relaunched the logo and stationary giving it a modern and fresh look.",
 					img: img57,
 					modal: [img58, img59]
 				},
-				{
-					title: "digital",
-					subtitle: "Animated christmas card for Grafikhaus",
-					modal_text: "Animating christmas cards became a new and playful field for me, when I started animating ads and headers for websites. Here are two christmas cards I animated for my company at the time. Simple and short. Just the way I like it.",
-					img: img60,
-					modal: [img61, img62]
-				},
+				// {
+				// 	title: "digital",
+				// 	subtitle: "Animated christmas cards for Grafikhaus",
+				// 	modal_text: "Animations became a new and playful field for me when I started animating ads and headers for websites. Here are two christmas cards I animated for my company - short and simple. Just the way I like it.",
+				// 	img: img60,
+				// 	modal: [img61, img62]
+				// },
 				{
 					title: "logo // print",
-					subtitle: "Logo and stationary for a language school",
-					modal_text: "A logo in a playful, child appealing look but at the same time serious enough to demonstrate the school's professional approach in teaching children a foreign language. No books required: what a great way to learn a language!",
+					subtitle: "Logo & stationary for a language school",
+					modal_text: "A logo in a playful, child appealing look but also serious enough to demonstrate the school's professional approach in teaching children a foreign language. No books required: what a great way to learn a language!",
 					img: img63,
 					modal: [img64, img65]
 				},
 				{
 					title: "print",
 					subtitle: "Marketing materials of all sorts",
-					modal_text: "Working for Klöpfer meant lots of challenging projects, a strict CD, tight deadlines and many people involved in the design process. I create marketing materials, product packaging, presentations and so much more. This is a small representation of my 5 years working for this client.",
+					modal_text: "Working for Klöpfer means lots of challenging projects, a strict CD, tight deadlines and many people involved in the design process. I created marketing materials, product packaging, presentations and so much more. This is a small sample of my 5 years working for this client.",
 					img: img66,
 					modal: [img67, img68, img69, img70, img71, img72, img73, img74, img75, img76, img77]
 				},
 				{
 					title: "logo // print",
-					subtitle: "Logo and stationary for handmade jewelry",
-					modal_text: "Feminine yet strong, clean, precious, elegant and light. A logo to match the simple and beautiful jewelry Gioia makes.",
+					subtitle: "Logo & stationary for jeweler",
+					modal_text: "Every piece of jewelry Gioia makes is unique. Feminine and strong, clean, precious, elegant and light. I designed a logo to match the simple and beautiful handmade earrings and necklaces.",
 					img: img78,
 					modal: [img79, img80, img81, img82]
 				},
 				{
 					title: "print",
-					subtitle: "Brochure for non-profit",
+					subtitle: "Brochure for a non-profit organization",
 					modal_text: "REGSAM is a non-profit organization also called »the nerve system of Munich«. Their goal is to build a network that connects people in need with the right place to go. Hospitals, refugee homes, rehab counselors, safe homes… This brochure is a telephone book for the social service sector.",
 					img: img83,
 					modal: [img84]
 				},
 				{
 					title: "logo // print",
-					subtitle: "Logo and stationary for a company that distributes wide-buckets for excavators",
-					modal_text: "Objective was to create a logo that feels heavy and strong, yet light and agile. Just like the wide-buckets the company distributes. Quite a challenge I found, but I am pleased with the result.",
+					subtitle: "Logo & stationary for a manufacturer",
+					modal_text: "The objective was to create a logo that brands the company in a heavy and strong, yet agile way to match the wide-buckets the company distributes.",
 					img: img85,
 					modal: [img86, img87]
 				},
 				{
 					title: "print",
 					subtitle: "Brochure for exterior decking",
-					modal_text: "A 50 page brochure that comes out once a year in spring season to showcase the companies newest outdoor decking materials. My work also included creating the illustrations for the »how to« page, a step by step instruction for do-it-yourselfer.",
+					modal_text: "A 50 page brochure made annually in spring to showcase the company’s newest outdoor decking materials.  My work also included creating the illustrations for the »how to« page, a step by step instruction for the do-it-yourselfer.",
 					img: img88,
 					modal: [img89, img90, img91, img92, img93, img94]
 				},
 				{
 					title: "other",
 					subtitle: "CD cover design",
-					modal_text: "CD covers are fun jobs, even more so, when the artist let's you in on what it is, that drives him to create his/her music. Empathy is important in order to transport the message of your project with power. Especially when it comes to music!",
+					modal_text: "Designing CD covers is fun. It’s even more fun when the artist let's you in on what it is that drives him to create their music. Empathy is important in order to transport the message of your project with power. This is especially true when it comes to music!",
 					img: img95,
 					modal: [img96, img97]
 				},
 				{
 					title: "other",
 					subtitle: "Icon-set for a packaging company",
-					modal_text: "Part of the relaunch we did for one of the worldwide leading manufacturers in the packaging technology sector, was to create a set of icons to show the different wrapping techniques available for machines. I enjoyed to visualize the differences through downsizing and simplification.",
+					modal_text: "Part of the relaunch we did for one of the worldwide leading manufacturers in the packaging technology sector was to create a set of icons to show the different wrapping techniques available for machines. I enjoyed visualizing the differences through downsizing and simplification.",
 					img: img98,
 					modal: [img99]
 				},
 				{
 					title: "logo // print",
-					subtitle: "Logo and stationary for a massage therapist",
-					modal_text: "A small project that was a lot of fun. Creating this logo was an interesting process. Didn't know much about tantra massages till I met this woman. I liked the name she came up with. Provocative and honest at the same time.",
+					subtitle: "Logo & stationary for massage therapist",
+					modal_text: "Designing this logo was interesting. I didn’t know much about tantra massages until I met this client. I liked the name she came up with. It is provocative and honest at the same time.",
 					img: img100,
 					modal: [img101, img102]
 				},
 				{
 					title: "print",
-					subtitle: "Marketing materials and give aways",
-					modal_text: "I designed marketing material for an event aimed to inform about the book trade and publishing industry and encourage young adults to seek a career in this sector. This event is now in its 5th year and has helped the industry become more attractive to young people.",
+					subtitle: "Marketing materials and giveaways",
+					modal_text: "Marketing material for an event aimed to inform about the book trade and publishing industry, and encourage young adults to seek a career in this sector. This event is now in its 5th year and has helped the industry become more attractive to young people.",
 					img: img103,
 					modal: [img104, img105, img106]
 				},
 				{
 					title: "logo",
 					subtitle: "An overview",
-					modal_text: "“Creativity is nothing but a mind set free.” –Torrie T. Asai ",
+					modal_text: "“Creativity is nothing but a mind set free.” –Torrie T. Asai",
 					img: img107,
-					modal: [img108, img109, img110, img111, img112, img113, img114, img115, img116]
+					modal: [img108, img109, img110, img111, img112, img113, img114, img115, img116, img125]
 				},
 				{
 					title: "print",
 					subtitle: "Book covers worth showing",
-					modal_text: "I enjoy to play with importance of information and find new ways to priorities text elements on a page. Book covers are great jobs to do that and also get creative with the design. Not all of these covers actually made it to the shops but I like them. So here they are!",
+					modal_text: "I enjoy playing around with information and finding new ways to prioritize text elements on a page. Book covers are great for that, especially when the author asks for you creativity. Not all of these covers actually made it to the shops but I like them. So here they are!",
 					img: img117,
 					modal: [img118, img119, img120, img121, img122, img123, img124]
 				},

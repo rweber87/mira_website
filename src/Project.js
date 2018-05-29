@@ -18,7 +18,6 @@ class Project extends Component {
 	}
 
 	handleClose = () => {
-		console.log("heyyyy");
 	    this.setState({ showModal: false });
 	}
 
@@ -30,15 +29,6 @@ class Project extends Component {
 		}	
 	}
 
-	onLeftKeyPress = (event) => {
-  		console.log(event.keyCode);
-  //       if (event.key === 37) {
-		// 	this.setState({ currentImg: this.state.imgCarousel.length - 1 })
-		// } else {
-		// 	this.setState({ currentImg: this.state.currentImg - 1 })
-		// }
-    }
-
 	rightImgButton = (event) => {
 		if(this.state.currentImg === this.state.imgCarousel.length - 1) {
 			this.setState({ currentImg: 0 }); 
@@ -46,13 +36,6 @@ class Project extends Component {
 			this.setState({ currentImg: this.state.currentImg + 1 })
 		}
 	}
-
-	onRightKeyPress = (event) => {
-        console.log(event.keyCode)
-        // if (event.key === 39) {
-        //     this.setState({ value: event.target.value })
-        // }
-    }
 
     togglePlay = () => {
     	const videoPlayer = document.querySelector('#video-player');
@@ -88,15 +71,12 @@ class Project extends Component {
 			        >
 			    	<div className="project-modal-card" >
 						{imgOrVideo}
-		    			<div className="close-button-1" onClick={this.handleClose}></div>
-		    			<div className="close-button-2" onClick={this.handleClose}></div>
 						{upperLeftArrow}
 		    			{lowerLeftArrow}
 		    			{upperRightArrow}
 		    			{lowerRightArrow}								    			
 						<div className="inner-modal-text">
-							<div className="inner-modal-text-name"><div className="inner-modal-text-title">{this.props.project.title}</div>&nbsp;&nbsp;|&nbsp; {this.props.project.subtitle}</div>
-							<br/>
+							<div><div className="inner-modal-text-title">{this.props.project.title}&nbsp;&nbsp;<span className="desc">|&nbsp;&nbsp;{this.props.project.subtitle}</span></div></div>
 							<div className="inner-modal-description">{this.props.project.modal_text}</div>
 							{/*<button style={{"width": "100%"}} onClick={this.togglePlay}>Play/Pause</button>*/}
 						</div>

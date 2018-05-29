@@ -86,7 +86,18 @@ li {
 	padding-top: 20px;		
 	color: white;	
 	text-decoration: none;
-	width: 120px;
+	width: 110px;
+	text-align: right;
+}
+
+.nav-item.contact{
+	font-size: 17px;
+	padding-left: 65px;
+	font-family: 'Lora', serif;
+	padding-top: 20px;		
+	color: white;	
+	text-decoration: none;
+	width: 125px;
 	text-align: right;
 }
 
@@ -99,6 +110,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 .nav-item::after {
     content: '';
     display: block;
+    margin-top: 5px;
     width: 0;
     height: 1px;
     background: #1DB7F0;
@@ -123,6 +135,10 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	width: 25%;
+}
+
+.left-menu-column.about {
+	color: #02241D;
 }
 
 .left-menu-column li {
@@ -158,8 +174,8 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 
 .project-text {
 	position: relative;
-	bottom: 95px;
-	right: 20px;
+	bottom: 66px;
+	right: 28px;
 	padding-left: 20px;
 	padding-bottom: 10px;
 	font-size: 15px;
@@ -210,7 +226,6 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transform: rotate(2deg);
 	background: rgba(2,36,29,0.75);
 	color: white;
-	width: 920px;
 	height: 750px;
 	opacity: 1;
 	-webkit-transition: opacity 500ms;
@@ -224,7 +239,7 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	font-weight: bold;
 	display: block;
 	font-size: 17px;
-	padding-top: 14px;
+	padding-top: 2px;
 	padding-left: 20px;
 	transform: rotate(-4deg);
 }
@@ -235,60 +250,48 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	transform: rotate(-4deg);
 	width: 255px;
 	white-space: normal;
-	padding-top: 25px;
+	padding-top: 15px;
 	padding-left: 20px;
 }
 
 .inner-modal-text {
 	position: relative;
-	bottom: 315px;
-	right: 20px;
+	bottom: 190px;
+	right: 23px;
 	padding-left: 20px;
 	font-size: 13px;
 	font-weight: 10;
 	transform: rotate(2deg);
-	background: rgba(2,36,29,0.75);
+	background: rgba(2,36,29,0.65);
 	color: white;
-	width: 920px;
+	width: 935px;
 	height: 750px;
 	opacity: 1;
 }
 
 .inner-modal-text-title {
+	position: relative;
+	transform: rotate(-2deg);
+	padding-left: 10px;
 	font-family: 'Lora', serif;
 	font-weight: bold;
 	font-size: 17px;
-	display: block;
-	padding-left: 10px;
-	float: left;
 }
 
-.inner-modal-text-subtitle { 
+span.desc {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	transform: rotate(-2deg);
-	padding-top: 35px;
-	width: 500px;
-}
-
-.inner-modal-text-name {
-	text-align: justify;
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	width: 859px;
-	transform: rotate(-2deg);
-	line-height: 2.0;
-	padding-left: 10px;
-	padding-top: 24px;
 }
 
 .inner-modal-description {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
-	width: 859px;
 	transform: rotate(-2deg);
-	line-height: 2.0;
+	line-height: 1.65;
+	width: 870px;
 	padding-left: 10px;
+	padding-top: 15px;
 }
 
 .project-modal-card:hover .project-modal-text {
@@ -315,10 +318,6 @@ div.MuiGrid-typeItem-2.MuiGrid-grid-xs-12-38.MuiGrid-grid-sm-2-41.app-nav-item {
 	width: 900px;
 }
 
-/*
-.ReactModal__Overlay--after-open{
-	background-color: rgba(255, 255, 255, 0.3) !important;
-}*/
 
 .button-upper-left-no-show {
 	position: relative;
@@ -506,48 +505,8 @@ a.email{
 	padding-bottom: 20px;
 }
 
-.social-media {
-	padding-bottom: 20px;
-}
-
-
-.fa {
-	font-size: 30px;
-	text-align: center;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-behance {
-	text-decoration: none;
-	color: #02241D;
-	background-color: #217A63;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.fa-instagram {
-	text-decoration: none;
-	color: #02241D;
-	background-color: #217A63;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.fa-linkedin {
-	text-decoration: none;
-	color: #02241D;
-	background-color: #217A63;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
+img.social-media:hover {
+	opacity: 0.7;
 }
 
 @media only screen and (max-device-width: 480px) {
