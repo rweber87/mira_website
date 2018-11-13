@@ -631,5 +631,32 @@ img.social-media:hover {
 		width: 380px;
 	}
 
+	.inner-modal-text-title {
+		padding-top: 4px;
+		padding-left: 0px;
+		font-size: 12px;
+
+	}
+
+	span.desc {
+		font-size: 10px;
+	}
+
+	.inner-modal-description {
+		padding-left: 0px;
+     	padding-top: 10px;
+     	font-size: 9px;
+     	width: 360px;
+	}
+
+	.button-upper-left {
+		left: -1px;
+		height: 0px;
+	}
+
+	.button-lower-left {
+		left: 26px;
+		height: 56px;
+	}
 
 }
