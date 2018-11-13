@@ -42,7 +42,7 @@ h1.last_name {
 	padding-left: 270px;
 }
 
-.logo-line{
+.logo-line {
 	position:absolute;
   	top: 83px;
   	height: 20px;
@@ -509,6 +509,119 @@ img.social-media:hover {
 	opacity: 0.7;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 375px) {
+
+	.nav {
+    	padding-top: 0px;
+		color: #02241D;
+	}
+
+	.left-nav {
+		color: #02241D;
+	}
+	
+	.navbar-title {
+		padding-left: 10px;
+		margin-top: 0px;	
+	}
+
+	h1.last_name {
+		margin-left: 77px;
+		margin-top: 0px;	
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+	.logo-line {
+		top: 23px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	.left-menu-column li {
+		padding-left: 15px;
+		padding-bottom: 10px;
+		cursor: pointer;
+	}
+
+	.project-modal {
+		height: 100vh;
+		width: 100vh;
+	}
+
+	.project-modal-card {
+		max-height: 100%;
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	.nav-item, .nav-item.contact {
+		padding: 0px 20px 0px 0px;		
+		color: white;
+		width: 200px;
+		text-align: center; 
+	}
+
+	.right-nav {
+		display: flex;
+		justify-content: flex-end;
+		padding-left: 40px;
+	}
+
+	.content-container {
+		padding-top: 75px;
+	}
+}
+
+@media (max-width: 768px),(max-height: 580px) {
+
+	.right-nav {
+		padding-left: 5%;
+	}
+
+	.nav-item {
+    	font-size: 15px;
+    }
+
+    .nav-item.contact {
+    	font-size: 15px;
+    }
+
+	.image-row {
+		padding-left: 15px;	
+	}
+
+	.img-window {
+    	height: 240px;
+    }
+
+    .img-window img {
+	    position: relative;
+	    bottom: 50px;
+	    height: 350px;
+	    width: 350px;
+	}
+
+	.about-text {
+		width: 100%; 
+	}
+
+	.project-modal {
+			height: 100vh;
+			width: 100vh;
+	}
+
+	.project-modal-card {
+		padding-left: 5%;
+		padding-top: 40%;
+		height: 250px;
+    	width: 375px;
+	}
+
+	.inner-modal-text {
+		width: 380px;
+	}
+
 
 }
