@@ -576,8 +576,12 @@ img.social-media:hover {
 
 @media (max-width: 768px),(max-height: 580px) {
 
+	.logo-line {
+		top: 85px;
+	}
+
 	.right-nav {
-		padding-left: 5%;
+		padding-left: 8%;
 	}
 
 	.nav-item {
@@ -587,6 +591,10 @@ img.social-media:hover {
     .nav-item.contact {
     	font-size: 15px;
     }
+
+    .content-container {
+		    padding-top: 8%;
+	}
 
 	.image-row {
 		padding-left: 15px;	
@@ -615,7 +623,7 @@ img.social-media:hover {
 	.project-modal-card {
 		padding-left: 5%;
 		padding-top: 40%;
-		height: 250px;
+		height: 312.5px;
     	width: 375px;
 	}
 
