@@ -44,6 +44,7 @@ class Project extends Component {
 
 
 	render () {
+		var mobileCloseButton = window.innerWidth < 500 ? <button className="mobile-close-button" onClick={this.handleClose}>x</button> : null
 		var imgPath = `${this.props.project.modal[this.state.currentImg]}`
 		var imgOrVideo = imgPath.includes("jpg") ? <img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} /> : <video id="video-player" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} type="video/mp4" autoplay="autoPlay"></video>
 		var upperLeftArrow = this.props.project.modal.length > 1 ? <div className="button-upper-left" onClick={this.leftImgButton}></div> : <div className="button-upper-left-no-show" ></div>
@@ -68,8 +69,10 @@ class Project extends Component {
 			          shouldCloseOnOverlayClick={true}
 			          leftKey={this.onLeftKeyPress}
 			          rightKey={this.onRightKeyPress}
+			          ariaHideApp={false}			       
 			        >
 			    	<div className="project-modal-card" >
+			    		{mobileCloseButton}
 						{imgOrVideo}
 						{upperLeftArrow}
 		    			{lowerLeftArrow}

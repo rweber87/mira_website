@@ -36,7 +36,7 @@ class ListProjects extends Component {
 
 	render () {
 		const projects = this.state.projects.map ( project => 
-				<Project project={project}/>
+				<Project project={project} key={project.id} />
 			)
 
 		var selectedStyle = {
