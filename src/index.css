@@ -649,7 +649,7 @@ img.social-media:hover {
 }
 
 /*Pixel 2 styling*/
-@media screen and (max-width: 411px) and (min-width: 376px) {
+@media screen and (max-width: 412px) and (min-width: 376px) {
 
 	.nav {
 		padding-top: 0px;
