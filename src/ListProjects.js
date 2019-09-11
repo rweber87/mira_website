@@ -48,7 +48,7 @@ class ListProjects extends Component {
 				<div className="left-menu-column">
 					<li style={this.state.selectedFilter === "all" ? selectedStyle : null} onClick={this.allCategoryFilter} >all</li>
 					<li style={this.state.selectedFilter === "print" ? selectedStyle : null} onClick={this.printCategoryFilter} >print</li>
-					{/*<li style={this.state.selectedFilter === "digital" ? selectedStyle : null} onClick={this.digitalCategoryFilter} >digital</li>*/}
+					<li style={this.state.selectedFilter === "digital" ? selectedStyle : null} onClick={this.digitalCategoryFilter} >digital</li>
 					<li style={this.state.selectedFilter === "logo" ? selectedStyle : null} onClick={this.logoCategoryFilter} >logo</li>
 					<li style={this.state.selectedFilter === "other" ? selectedStyle : null} onClick={this.otherCategoryFilter} >other</li>
 				</div>

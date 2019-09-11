@@ -7,12 +7,6 @@ function About() {
 		<div className="content-container">
 			<div className="left-menu-column about">
 				<li>TBD:</li>
-				{/*<li>- love cats, not in a weird way</li>
-				<li>- fluent in bavarian and pig latin</li>
-				<li>- night owl</li>
-				<li>- did a triathlon and didn't enjoy &nbsp;&nbsp;the swimming part of it</li>
-				<li>- love eating avocado</li>
-				<li>- 3 older siblings</li>*/}
 			</div>
 			<div className="right-menu-column" >
 				<div className="img-window">
@@ -27,12 +21,7 @@ function About() {
 				"you can, you should, and if you’re brave enough to start, you will."
 				- Stephen King
 				</div>
-				{/*<div className="decorative-line"></div>
-				<div className="about-text">
-					<div className="title">Vita<br/><br/><br/></div>
-					<div className="work-one">Since 04.2018<br/>Grafikhaus Schlotterer KofmacherGbR</div>
-					<div className="small-decorative-line"></div>
-				</div>*/}
+				<div className='about-text'><a id='resume-link' href='https://drive.google.com/file/d/1yNMnqi0akbdzfrkokVcdPllHxvSCagqJ/view' target='_blank'>Checkout my resume!</a></div>
 			</div>
 		</div>
 	)

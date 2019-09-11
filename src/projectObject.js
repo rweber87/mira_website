@@ -22,7 +22,7 @@ import img21 from './images/haufe_images/Haufe_TG_3.jpg'
 import img22 from './images/BayLGB_Landingpage.jpg'
 import img23 from './images/bay_images/BayLGB_1.jpg'
 import img24 from './images/PBB_Landingpage.jpg'
-// import img25 from './images/pbb_images/pbb_Neujahrsgruesse_2016_klein.mp4'
+import img25 from './images/pbb_images/pbb_Weihnachtsgruesse_2016_klein.mp4'
 import img27 from './images/pbb_images/RZ_pbb_Neujahrskarte_digital_2017_klein.mp4'
 import img29 from './images/Kinderliederbuch_landingpage.jpg'
 import img30 from './images/kinder_images/Kinderliederbuch_1.jpg'
@@ -156,14 +156,14 @@ var projectObject =
 					modal: [img23],
 					id: 4
 				},
-				// {
-				// 	title: "digital",
-				// 	subtitle: "Animated christmas cards for a bank",
-				// 	modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank that specializes in real estate financing and public investment. The bank loved it and brought the snowman back for Christmas the following year.",
-				// 	img: img24,
-				// 	modal: [img25, img27],
-				//  id: 5 
-				// },
+				{
+					title: "digital",
+					subtitle: "Animated christmas cards for a bank",
+					modal_text: "In this project I worked closely with a very talented illustrator. The snowman idea gives a friendly touch to a serious bank that specializes in real estate financing and public investment. The bank loved it and brought the snowman back for Christmas the following year.",
+					img: img24,
+					modal: [img25, img27],
+				 id: 5 
+				},
 				{
 					title: "other",
 					subtitle: "A children's songbook with heart",
@@ -212,14 +212,14 @@ var projectObject =
 					modal: [img58, img59],
 					id: 11
 				},
-				// {
-				// 	title: "digital",
-				// 	subtitle: "Animated christmas cards for Grafikhaus",
-				// 	modal_text: "Animations became a new and playful field for me when I started animating ads and headers for websites. Here are two christmas cards I animated for my company - short and simple. Just the way I like it.",
-				// 	img: img60,
-				// 	modal: [img61, img62],
-				//  id: 12 
-				// },
+				{
+					title: "digital",
+					subtitle: "Animated christmas cards for Grafikhaus",
+					modal_text: "Animations became a new and playful field for me when I started animating ads and headers for websites. Here are two christmas cards I animated for my company - short and simple. Just the way I like it.",
+					img: img60,
+					modal: [img61, img62],
+				 id: 12 
+				},
 				{
 					title: "logo // print",
 					subtitle: "Logo & stationary for a language school",

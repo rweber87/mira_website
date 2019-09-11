@@ -46,7 +46,7 @@ class Project extends Component {
 	render () {
 		var mobileCloseButton = window.innerWidth < 500 ? <button className="mobile-close-button" onClick={this.handleClose}>x</button> : null
 		var imgPath = `${this.props.project.modal[this.state.currentImg]}`
-		var imgOrVideo = imgPath.includes("jpg") ? <img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} /> : <video id="video-player" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} type="video/mp4" autoplay="autoPlay"></video>
+		var imgOrVideo = imgPath.includes("jpg") ? <img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} /> : <video id="video-player" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} type="video/mp4" autoPlay="autoPlay"></video>
 		var upperLeftArrow = this.props.project.modal.length > 1 ? <div className="button-upper-left" onClick={this.leftImgButton}></div> : <div className="button-upper-left-no-show" ></div>
 		var lowerLeftArrow = this.props.project.modal.length > 1 ? <div className="button-lower-left" onClick={this.leftImgButton}></div> : <div className="button-lower-left-no-show" ></div>
 		var upperRightArrow = this.props.project.modal.length > 1 ? <div className="button-upper-right" onClick={this.rightImgButton}></div> : null
@@ -81,7 +81,6 @@ class Project extends Component {
 						<div className="inner-modal-text">
 							<div><div className="inner-modal-text-title">{this.props.project.title}&nbsp;&nbsp;<span className="desc">|&nbsp;&nbsp;{this.props.project.subtitle}</span></div></div>
 							<div className="inner-modal-description">{this.props.project.modal_text}</div>
-							{/*<button style={{"width": "100%"}} onClick={this.togglePlay}>Play/Pause</button>*/}
 						</div>
 					</div>
 			    </ReactModal>
