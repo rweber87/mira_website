@@ -47,7 +47,7 @@ class Project extends Component {
 		var mobileCloseButton = window.innerWidth < 500 ? <button className="mobile-close-button" onClick={this.handleClose}>x</button> : null
 		var imgPath = `${this.props.project.modal[this.state.currentImg]}`
 		var imgOrVideo = imgPath.includes("jpg") ? <img className="project-modal-img" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} /> : <video id="video-player" src={this.props.project.modal[this.state.currentImg]} alt={this.props.project.title} onClick={this.handleOpen} height={"100%"} width={"100%"} type="video/mp4" autoPlay="autoPlay"></video>
-		var upperLeftArrow = this.props.project.modal.length > 1 ? <div className="button-upper-left" onClick={this.leftImgButton}></div> : <div className="button-upper-left-no-show" ></div>
+		var upperLeftArrow = this.props.project.modal.length > 1 ? <div className="button-upper-left" onClick={this.leftImgButton}></div> : <div className="button-upper-left" style={{borderTop: 'solid 0px'}} onClick={this.leftImgButton}></div>
 		var lowerLeftArrow = this.props.project.modal.length > 1 ? <div className="button-lower-left" onClick={this.leftImgButton}></div> : <div className="button-lower-left-no-show" ></div>
 		var upperRightArrow = this.props.project.modal.length > 1 ? <div className="button-upper-right" onClick={this.rightImgButton}></div> : null
 		var lowerRightArrow = this.props.project.modal.length > 1 ? <div className="button-lower-right" onClick={this.rightImgButton}></div> : null
