@@ -467,6 +467,16 @@ span.desc {
 	padding-bottom: 30px;	
 }
 
+.about-text-quote {
+	font-family: 'Raleway Medium', sans-serif;
+	font-weight: 900;
+}
+
+.about-text-quote-signature {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+}
+
 .right-menu-column.container{
 	color: white;
 }
